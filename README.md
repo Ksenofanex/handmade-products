@@ -7,7 +7,7 @@ A simple portfolio site for handmade products belonging to an acquaintance of mi
 
 - Bootstrap4.
 - Search page and searching functionality.
-- Image uploads.
+- Image upload.
 
 ***
 ### Pages
