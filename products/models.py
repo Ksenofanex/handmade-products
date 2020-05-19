@@ -1,6 +1,5 @@
 from django.db import models
 from django.urls import reverse
-from PIL import Image # Pillow.
 
 
 class Table(models.Model):
@@ -15,13 +14,3 @@ class Table(models.Model):
 
     def get_absolute_url(self):
         return reverse('table_detail', kwargs={'pk': str(self.pk)})
-
-    def save(self, *args, **kwargs):
-        super().save(*args, **kwargs)
-
-        img = Image.open(self.image.path)
-
-        if img.height > 300 or img.width > 300:
-            output_size = (300, 300)
-            img.thumbnail(output_size)
-            img.save(self.image.path)
