@@ -28,6 +28,9 @@ INSTALLED_APPS = [ # Don't forget to add commas to the end of each app.
 
     # Local apps
     'products.apps.ProductsConfig',
+    
+    # Third-party apps
+    'storages',
 ]
 
 MIDDLEWARE = [
