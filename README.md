@@ -8,7 +8,7 @@ A simple portfolio site for handmade products belonging to an acquaintance of mi
 - Bootstrap4.
 - Search page and searching functionality.
 - Image upload.
-- AWS S3.
+- AWS S3 for storing images.
 
 ***
 ### Pages
