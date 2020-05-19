@@ -7,7 +7,7 @@
     {% for table in table_list %}
         <div class="col-md-4">
             <div class="card" style="width: 18rem;">
-                    <img class="tableimage" src="{{ table.image.url }}" alt="{{ table.name }}">
+                    <img class="tableimage" src="{{ table.image.url }}" alt="{{ table.name }} width="300" height="300"">
                     <h5 class="card-title"><a href="{{ table.get_absolute_url }}">{{ table.name }}</a></h5>
                     <p class="card-text">{{ table.description|slice:":100" }}......</p>
                     <a href="{{ table.get_absolute_url }}" class="btn btn-primary">${{ table.price }}</a>
