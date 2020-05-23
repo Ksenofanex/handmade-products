@@ -1,6 +1,8 @@
 # handmade-products
 A simple portfolio site for handmade products belonging to an acquaintance of mine.
 
+![alt text](https://i.imgur.com/Kc04Yn7.png "Site Overview")
+
 ***
 ### Features
 ***
