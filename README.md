@@ -17,3 +17,5 @@ A simple portfolio site for handmade products belonging to an acquaintance of mi
 ***
 
 - [Main Page](https://handmadeproductsksenofanex.herokuapp.com/)
+- [Detail Page](https://handmadeproductsksenofanex.herokuapp.com/1/)
+- [Search Page](https://handmadeproductsksenofanex.herokuapp.com/search/?q=)
